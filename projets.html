@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projets | Margaux Legrand</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="cursor"></div>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="logo.png" alt="Logo Margaux Legrand">
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="experiences.html">Expériences</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+</nav>
+
+<section class="page-header reveal">
+
+<p class="section-title">
+PORTFOLIO
+</p>
+
+<h1 class="page-title">
+Mes projets
+</h1>
+
+<p class="page-description">
+Chaque projet raconte une histoire : voici les miennes.
+</p>
+
+</section>
+
+<section class="featured-project reveal">
+
+<div class="featured-image">
+
+<img src="images/kream.png" alt="Kream">
+
+</div>
+
+<div class="featured-content">
+
+<p class="project-tag">
+PROJET PHARE
+</p>
+
+<h2>
+KREAM
+</h2>
+
+<h3>
+La crème de la crème.
+</h3>
+
+<p>
+Création d'une agence fictive de marketing d'influence food lors d'un séminaire influence.
+</p>
+
+<a
+class="main-button"
+onclick="openProject('kream')">
+Voir le projet
+</a>
+
+</div>
+
+</section>
+
+<section class="projects-grid">
+
+<div class="project-card reveal"
+onclick="openProject('needly')">
+
+<img src="images/needly.png" alt="Needly">
+
+<h2>NEEDLY</h2>
+
+<p>
+Application anti-gaspillage alimentaire.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('umaine')">
+
+<img src="images/umaine.png" alt="Umaine">
+
+<h2>UMAINE</h2>
+
+<p>
+Campagne de lancement créative.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('bliss')">
+
+<img src="images/bliss.png" alt="Bliss">
+
+<h2>BLISS</h2>
+
+<p>
+Trouve ton yoga.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('nomads')">
+
+<img src="images/nomads.png" alt="Nomads">
+
+<h2>NOMADS</h2>
+
+<p>
+Communication RSE.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('vermeil')">
+
+<img src="images/vermeil.png" alt="Vermeil">
+
+<h2>VERMEIL</h2>
+
+<p>
+Restaurant imaginé de A à Z.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('ia')">
+
+<img src="images/ia-lab-day.png" alt="IA Lab Day">
+
+<h2>IA LAB DAY</h2>
+
+<p>
+Sensibilisation aux fake news.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('holoflash')">
+
+<img src="images/holoflash.png" alt="Holoflash">
+
+<h2>HOLOFLASH</h2>
+
+<p>
+Média holographique innovant.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('podcast')">
+
+<img src="images/podcast.png" alt="Podcast">
+
+<h2>MATTE MOI ÇA !</h2>
+
+<p>
+Podcast art et culture.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('ikea')">
+
+<img src="images/ikea.png" alt="IKEA">
+
+<h2>IKEA</h2>
+
+<p>
+Communiqué de presse.
+</p>
+
+</div>
+
+<div class="project-card reveal"
+onclick="openProject('patinage')">
+
+<img src="images/patinage-video.png" alt="Tu savais ça de moi ?">
+
+<h2>
+TU SAVAIS ÇA DE MOI ?
+</h2>
+
+<p>
+Mon parcours en patinage artistique.
+</p>
+
+</div>
+
+</section>
+
+<div id="project-modal" class="project-modal">
+
+<div class="modal-content">
+
+<button
+class="close-modal"
+onclick="closeProject()">
+×
+</button>
+
+<div id="modal-body"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

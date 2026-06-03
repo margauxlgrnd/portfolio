@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Expériences | Margaux Legrand</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="cursor"></div>
+
+<nav class="navbar">
+
+<div class="logo">
+<img src="logo.png" alt="Logo Margaux Legrand">
+</div>
+
+<ul class="nav-links">
+<li><a href="index.html">Accueil</a></li>
+<li><a href="about.html">À propos</a></li>
+<li><a href="projets.html">Projets</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+<div class="burger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+</nav>
+
+<section class="page-header reveal">
+
+<p class="section-title">
+PARCOURS PROFESSIONNEL
+</p>
+
+<h1 class="page-title">
+Expériences
+</h1>
+
+<p class="page-description">
+Des expériences qui ont façonné ma vision de la communication.
+</p>
+
+</section>
+
+<section class="timeline">
+
+<div class="timeline-line"></div>
+
+<!-- CAPA -->
+
+<div class="timeline-item reveal">
+
+<div class="timeline-date">
+Depuis septembre 2024
+</div>
+
+<div class="timeline-card"
+onclick="openExperience('capa')">
+
+<h2>
+Chargée de communication
+</h2>
+
+<h3>
+Clermont Auvergne Patinage Artistique
+</h3>
+
+<p>
+Gestion des réseaux sociaux des Magmatiques.
+</p>
+
+</div>
+
+</div>
+
+<!-- TALENT MANAGER -->
+
+<div class="timeline-item reveal">
+
+<div class="timeline-date">
+Janvier 2026 – Mars 2026
+</div>
+
+<div class="timeline-card"
+onclick="openExperience('talent')">
+
+<h2>
+Assistante Talent Manager
+</h2>
+
+<h3>
+Just GO Agency
+</h3>
+
+<p>
+Suivi des talents et coordination des collaborations.
+</p>
+
+</div>
+
+</div>
+
+<!-- BDE -->
+
+<div class="timeline-item reveal">
+
+<div class="timeline-date">
+Octobre 2025 – Juin 2026
+</div>
+
+<div class="timeline-card"
+onclick="openExperience('bde')">
+
+<h2>
+Présidente du BDE
+</h2>
+
+<h3>
+Groupe EDH Bordeaux
+</h3>
+
+<p>
+Management, évènementiel et partenariats.
+</p>
+
+</div>
+
+</div>
+
+<!-- COMMUNITY MANAGER -->
+
+<div class="timeline-item reveal">
+
+<div class="timeline-date">
+Avril 2025 – Juin 2025
+</div>
+
+<div class="timeline-card"
+onclick="openExperience('community')">
+
+<h2>
+Assistante Community Manager
+</h2>
+
+<h3>
+Just GO Agency
+</h3>
+
+<p>
+Création de contenus et analyse des performances.
+</p>
+
+</div>
+
+</div>
+
+
+<!-- MONITRICE -->
+
+<div class="timeline-item reveal">
+
+<div class="timeline-date">
+Septembre 2020 – Juin 2024
+</div>
+
+<div class="timeline-card"
+onclick="openExperience('patinage')">
+
+<h2>
+Monitrice de Patinage Artistique
+</h2>
+
+<h3>
+CAPA
+</h3>
+
+<p>
+Encadrement et accompagnement des jeunes patineurs.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- POPUP EXPERIENCES -->
+
+<div id="experience-modal" class="project-modal">
+
+<div class="modal-content">
+
+<button class="close-modal"
+onclick="closeExperience()">
+×
+</button>
+
+<div id="experience-body"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
